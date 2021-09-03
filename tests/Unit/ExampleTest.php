@@ -14,7 +14,7 @@ class ExampleTest extends TestCase
     public function test_example()
     {
         // $this->assertTrue(true);
-        $this->assertEquals("Hello World !!", $this->concat("Helloo ", "World !!"));
+        $this->assertEquals("Hello World !!", $this->concat("Hello ", "World !!"));
     }
 
     public function concat($var1, $var2) {

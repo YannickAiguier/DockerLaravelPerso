@@ -13,7 +13,7 @@ class MyTest extends TestCase
      */
     public function MyExample()
     {
-        $response = $this->get('/home');
+        $response = $this->get('/xdebug');
 
         $response->assertStatus(200);
     }
