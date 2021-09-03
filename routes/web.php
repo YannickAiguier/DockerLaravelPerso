@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// routes perso
 Route::get('/xdebug', function () {
     return view('xdebug');
 });
