@@ -13,7 +13,7 @@ jobs:
 
     env:
       DB_CONNECTION: pgsql
-      DB_HOST: pgsql
+      DB_HOST: localhost
       DB_PASSWORD: userpassword
       DB_USERNAME: user
       DB_DATABASE: database
