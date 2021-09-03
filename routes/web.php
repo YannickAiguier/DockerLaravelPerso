@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/xdebug', function () {
     return view('xdebug');
 });
+
+Route::get('/home', function () {
+    return view('home');
+});
