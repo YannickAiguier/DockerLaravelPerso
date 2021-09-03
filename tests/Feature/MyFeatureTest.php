@@ -11,7 +11,7 @@ class MyTest extends TestCase
      * @test
      * @return void
      */
-    public function MyExample()
+    public function my_example()
     {
         $response = $this->get('/xdebug');
 
